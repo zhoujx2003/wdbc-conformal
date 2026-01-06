@@ -38,7 +38,7 @@ Create a folder, e.g.
 
 Put inside:
   - wdbc_conformal_2x2.py
-  - (this file) README_WINDOWS.txt
+  - (this file) README.md
   - wdbc.data   (recommended: put it in the same folder)
 
 If you keep wdbc.data somewhere else, note its full path (we need it later).
@@ -94,8 +94,8 @@ After activation, you usually see "(.venv)" at the start of the command line.
 ---------------------------------------------------------------
 Still in PowerShell with venv activated, run:
 
-  python -m pip install -U pip
-  python -m pip install numpy pandas matplotlib scikit-learn
+python -m pip install -U pip
+python -m pip install -r requirements.txt
 
 ---------------------------------------------------------------
 6) Run the script (one command)
